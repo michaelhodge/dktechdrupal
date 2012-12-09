@@ -23,15 +23,28 @@ project[googleanalytics][subdir] = "contrib"
 ; MENUS
 project[nice_menus][subdir] = "contrib"
 
+; WYSIWYG
+project[libraries][subdir] = "contrib"
+project[ckeditor][subdir] = "contrib"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://ckeditor.com/downloads/ckeditor_4.0_basic.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
+
 ;SEO
 projects[xmlsitemap][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 
-;DK TECH CONTRIB MODULES
-projects[views][subdir] = "contrib"
+;DK TECH STANDARDS CONTRIB MODULES
 projects[ctools][subdir] = "contrib"
+projects[views][subdir] = "contrib"
+projects[views_slideshow][subdir] = "contrib"
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][type] = "library"
 projects[rabbit_hole][subdir] = "contrib"
 
 ; DK TECH CUSTOM MODULES
