@@ -27,7 +27,7 @@ project[nice_menus][subdir] = "contrib"
 project[libraries][subdir] = "contrib"
 project[ckeditor][subdir] = "contrib"
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://ckeditor.com/downloads/ckeditor_4.0_basic.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 
