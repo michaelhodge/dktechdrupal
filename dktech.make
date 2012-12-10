@@ -26,6 +26,8 @@ project[nice_menus][subdir] = "contrib"
 ; WYSIWYG
 project[libraries][subdir] = "contrib"
 project[ckeditor][subdir] = "contrib"
+project[imce][subdir] = "contrib"
+project[imce_mkdir][subdir] = "contrib"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0/ckeditor_4.0_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -38,6 +40,7 @@ projects[token][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 
 ;DK TECH STANDARDS CONTRIB MODULES
+projects[features][subdir] = "contrib"
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
